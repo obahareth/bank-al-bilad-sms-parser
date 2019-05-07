@@ -2,7 +2,7 @@
   "name": "bank-al-bilad-sms-parser",
   "version": "1.0.0",
   "description": "Parse SMS sent from Bank Al Bilad",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"{src,tests}/**/*.ts\"",
