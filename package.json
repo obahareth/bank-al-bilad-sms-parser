@@ -1,6 +1,6 @@
 {
   "name": "bank-al-bilad-sms-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse SMS sent from Bank Al Bilad",
   "main": "dist/index.js",
   "scripts": {
