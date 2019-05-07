@@ -43,7 +43,7 @@ class BankAlBiladSMSParser {
     return dateStr !== null ? new Date(dateStr) : null
   }
 
-  static getRegexGroup(
+  private static getRegexGroup(
     regex: RegExp,
     str: string,
     groupName: string
