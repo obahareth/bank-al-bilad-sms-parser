@@ -1,0 +1,24 @@
+{
+  "name": "bank-al-bilad-sms-parser",
+  "version": "1.0.0",
+  "description": "Parse SMS sent from Bank Al Bilad",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"{src,tests}/**/*.ts\"",
+    "lint": "tslint src/*.ts",
+    "lint:fix": "npm run format && npm run lint --fix",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "jest": "^24.8.0",
+    "prettier": "^1.17.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.4.5"
+  }
+}

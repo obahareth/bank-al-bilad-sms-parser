@@ -1,0 +1,8 @@
+node_modules
+src
+tests
+.prettierrc
+.gitignore
+.github
+jest.config.js
+package-lock.json
